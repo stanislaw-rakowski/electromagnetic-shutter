@@ -1,0 +1,36 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+}
+
+.App {
+	display: flex;
+	gap: 30px;
+}
+
+table {
+	width: 350px;
+}
+
+.matrix {
+	height: 500px;
+	width: 500px;
+	border: 3px solid white;
+	padding: 10px;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	overflow: hidden;
+}
+
+input[type="range"] {
+	width: 500px;
+	margin: 20px 0;
+}
+
+.range-container {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+}
